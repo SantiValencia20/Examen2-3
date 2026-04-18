@@ -10,6 +10,7 @@ Este es el proyecto final del examen web, maquetado de acuerdo a una imagen de r
 
 ## Despliegue
 El proyecto está alojado de forma gratuita a través de Netlify.
+El proyecto se puede ver en la seccion derecha "About".
 
 ### Autores
 * Santiago Valencia
