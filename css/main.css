@@ -15,3 +15,29 @@ body {
   Espacio de utilidad BEM. 
   Aquí iremos agregando nuestras reglas conforme analicemos la imagen.
 */
+
+/* --- TOPBAR --- */
+.topbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9ecef;
+  font-size: 0.85rem;
+}
+
+.topbar__link:hover {
+  color: #0d6efd !important; /* Mismo azul primario de Bootstrap */
+}
+
+/* --- HEADER --- */
+.header {
+  background-color: #3f7de0 !important; /* Un azul similar al diseño */
+}
+
+.header__text {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.header__logo {
+  font-size: 2.5rem;
+  letter-spacing: -1px;
+}
