@@ -1,0 +1,17 @@
+/* 
+  Estilos principales
+  Metodología BEM: Block, Element, Modifier
+  Sintaxis: .block {} .block__element {} .block--modifier {}
+*/
+
+/* Reset básico o ajustes generales si se requieren por encima de Bootstrap */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+  Espacio de utilidad BEM. 
+  Aquí iremos agregando nuestras reglas conforme analicemos la imagen.
+*/
