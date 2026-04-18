@@ -24,12 +24,14 @@ body {
 }
 
 .topbar__link:hover {
-  color: #0d6efd !important; /* Mismo azul primario de Bootstrap */
+  color: #0d6efd !important;
+  /* Mismo azul primario de Bootstrap */
 }
 
 /* --- HEADER --- */
 .header {
-  background-color: #3f7de0 !important; /* Un azul similar al diseño */
+  background-color: #3f7de0 !important;
+  /* Un azul similar al diseño */
 }
 
 .header__text {
@@ -40,4 +42,47 @@ body {
 .header__logo {
   font-size: 2.5rem;
   letter-spacing: -1px;
+}
+
+/* --- BARRA DE NAVEGACION --- */
+.nav-wrapper {
+  margin-top: -30px; /* Esto empuja la caja hacia arriba, montándose en el header azul */
+}
+
+.main-nav {
+  border-radius: 4px; /* Un ligero borde redondeado típico en estos diseños */
+}
+
+.social-nav__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: #3f7de0;
+  /* El azul del diseño */
+  color: white;
+  border-radius: 50%;
+  /* Esto lo hace circular */
+  margin-left: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-nav__icon:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* --- NAVBAR --- */
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #0d6efd;
 }
