@@ -42,6 +42,12 @@ body {
 .header__logo {
   font-size: 2.5rem;
   letter-spacing: -1px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.header__logo:hover {
+  transform: scale(1.05);
 }
 
 /* --- BARRA DE NAVEGACION --- */
