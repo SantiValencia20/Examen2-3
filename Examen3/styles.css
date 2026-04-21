@@ -30,8 +30,8 @@
 .navbar__item a {
     text-decoration: none;
     color: #1a1a2e;
-    font-weight: 600;
-    font-size: 0.95rem;
+    font-weight: 700;
+    font-size: 1.1rem;
     letter-spacing: 1px;
 }
 
@@ -39,17 +39,30 @@
     color: #e8474c;
 }
 
+.navbar__icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar__icono {
+    font-size: 1.5rem;
+    color: #1a1a2e;
+    cursor: pointer;
+}
+
 .hero {
     background-color: #f0f0f0;
-    padding: 60px 0;
+    padding: 60px 0 30px 0;
     position: relative;
+    overflow: hidden;
 }
 
 .hero__titulo {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: 800;
     color: #1a1a2e;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 .hero__titulo span {
@@ -78,4 +91,24 @@
     height: 100%;
     object-fit: contian;
     object-position: bottom;
+}
+
+.hero__indicadores {
+    display: flex;
+    gap: 10px;
+    padding: 0px 40px;
+    margin: 20px;
+}
+
+.hero__punto {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+}
+
+.hero__punto--activo {
+    background-color: #e8474c;
+    border-color: #e8474c;
 }
