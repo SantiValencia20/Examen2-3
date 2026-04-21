@@ -112,3 +112,50 @@
     background-color: #e8474c;
     border-color: #e8474c;
 }
+
+/* Esto es el Responsive para tablets */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        padding: 15px 20px;
+    }
+
+    .navbar__menu {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .hero__titulo {
+        font-size: 3rem;
+    }
+
+    .hero__imagen {
+        margin-top: 20px;
+    }
+}
+
+/* Y este es el responsive pero para célulares */
+@media (max-width: 480px) {
+
+    .navbar__menu {
+        gap: 10px;
+        font-size: 0.85rem;
+    }
+
+    .navbar__icons {
+        display: none;
+    }
+
+    .hero__titulo {
+        font-size: 2rem;
+    }
+
+    .hero__boton {
+        width: 100%;
+        text-align: center;
+    }
+}
